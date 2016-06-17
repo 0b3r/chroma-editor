@@ -1,5 +1,7 @@
 'use strict';
-const screenImage = require('_images/copcar6.jpg');
+const screenImage1 = require('_images/copcar6.jpg');
+const screenImage2 = require('_images/1.jpg');
+
 
 function MainController($log) {
   'ngInject';
@@ -7,7 +9,7 @@ function MainController($log) {
   $log.debug('Hello from main controller!');
 
   let self = this;
-  self.rawImg = screenImage;
+  self.rawImg = screenImage2;
 
 }
 
